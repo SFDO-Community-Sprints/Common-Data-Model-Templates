@@ -6,6 +6,8 @@ Template org for the Common Data Model template
 ## Entity Relationship Diagram
 ## Data Dictionary 
 ## Installation
+Install in sandboxes:
+Install in Production Instace: 
 ## Customization
 ## Contributing to the Data Model
 ### Through CummulusCI
