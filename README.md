@@ -53,11 +53,11 @@ Common Data Models are Open-Source standardized extensible data schemas that inc
 
 #### Design-Driven Development
 1. Any new Data Model or changes to an existing Data Model will have to go through a review process before being approved for development. 
-2. All requests for new features or changes should be first shared in the Trailblazer Community. This is to capture some commmunity feedback on interest as well as some initial requirements.
-3. An individual on the Common Data Models Team creates Feature Request Issue in Github following the template, capturing some initial requirements while articulating some expectations.
-4. The Feature Request is reviewed by the Common Data Models Team and technical specs are created, adding to the Issue created.
-5. The Feature Request Issue is assigned to an individual or a request is made to the community for support on development of the Feature Request.
-6. The assigned Developer will document and articulate their solution as part of their process (Create/Update ERD, Data Dictionary).
+1. All requests for new features or changes should be first shared in the Trailblazer Community. This is to capture some commmunity feedback on interest as well as some initial requirements.
+1. An individual on the Common Data Models Team creates Feature Request Issue in Github following the template, capturing some initial requirements while articulating some expectations.
+1. The Feature Request is reviewed by the Common Data Models Team and technical specs are created, adding to the Issue created.
+1. The Feature Request Issue is assigned to an individual or a request is made to the community for support on development of the Feature Request.
+1. The assigned Developer will document and articulate their solution as part of their process (Create/Update ERD, Data Dictionary).
  #### Development Process
 1. Pull *main* branch to get latest updates `git pull origin main`
 1. Create feature branch off of *main* branch `git checkout -b feature/issue-key-descriptiveBranchName`
