@@ -59,13 +59,17 @@ Common Data Models are Open-Source standardized extensible data schemas that inc
 5. The Feature Request Issue is assigned to an individual or a request is made to the community for support on development of the Feature Request.
 6. The assigned Developer will document and articulate their solution as part of their process (Create/Update ERD, Data Dictionary).
  #### Development Process
-1. Start by creating a new branch from the master branch. Salesforce CLI users will need to do this in Github or Github Desktop.
-Make the appropriate edits and changes in your scratch org
-2. Commit your changes to your branch.
-3. Have your changes reviewed by a peer, utilizing the same tool you used to create the scratch org.
-4. Once the peer review is complete, create a pull request.
-5. Give as much detail as possible and link any issues you may have completed.
-6. The pull request will be reviewed by the Project Leadership team. They will ask questions about the update and may bring the update/enhancement/changes to the monthly team meetings for discussion.
+1. Pull *main* branch to get latest updates `git pull origin main`
+1. Create feature branch off of *main* branch `git checkout -b feature/issue-key-descriptiveBranchName`
+1. Run `cci flow run dev_org --org dev` to create a new scratch org and deploy this project.
+1. Run `cci org browser dev` to open the org in your browser.
+1. Either develop locally and push to scratch org, or develop in scratch org and pull changes
+1. If developing feature in scratch org run `cci task run list_changes --org dev` to see changes that will sync
+1. If developing feature in scratch org run `cci task run retrieve_changes --org dev` to retrieve the changes locally.
+1. If developing locally, run `cci task run dx_push --org dev` to push local changes to scratch org
+1. Add and commit changes to feature branch `git add .` and `git commit -m "issue-KEY: descriptive commit message"`
+1. Push feature branch to GitHub and create a pull request to *develop* branch for review `git push origin feature/issue-key-descriptiveBranchName`
+1. Delete the scratch org `cci org scratch_delete dev`
 
 
 
