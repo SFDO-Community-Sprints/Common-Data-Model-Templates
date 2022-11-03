@@ -17,7 +17,7 @@ Any additional steps required
 
 ### Through CummulusCI
 #### Pre Requisites 
-1. Github Accoount
+1. Github Account
 2. Contributor Access to the Data Model Repository
 3. Git cli intalled on local machine
 4. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/get-started.html)
