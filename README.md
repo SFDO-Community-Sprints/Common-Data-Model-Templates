@@ -9,9 +9,12 @@ Template org for the Common Data Model template
 ## Customization
 ## Contributing to the Data Model
 ### Through CummulusCI
+#### Pre Requisites 
+1. Github Accoount
+2. Contributor Access to the Data Model Repository
+3. Git cli intalled on local machine
+4. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/get-started.html)
 
-#### Setup
-This project useses CumulusCI as the build tool. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/get-started.html).
 
 Connect CumulusCI to the GitHub account used to access this repository.
 `cci service connect github`
