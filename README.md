@@ -15,7 +15,7 @@ Template org for the Common Data Model template
 3. Git cli intalled on local machine
 4. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/get-started.html)
 
-
+#### Set up
 Connect CumulusCI to the GitHub account used to access this repository.
 `cci service connect github`
 
