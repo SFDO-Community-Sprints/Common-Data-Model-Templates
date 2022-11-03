@@ -34,6 +34,9 @@ Verify DevHub and GitHub service
 `cci service list`
 
 ### Through Metecho
+
+--------------- List Metecho process here---------------------
+
 ### Process and Governance 
 
 Common Data Models are Open-Source standardized extensible data schemas that include entities, attributes, semantic metadata, and relationships. While Open-Source, these models try to maximize accessibility by making it an Unlocked Package. When contributing to Common Data Models, the project follow a governance process to ensure it meets all standards.
