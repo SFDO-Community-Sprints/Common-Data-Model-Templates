@@ -1,0 +1,25 @@
+# Salesforce / SFDX / CCI
+.cci
+.sfdx
+/src.orig
+/src
+.sf
+# Python
+*.pyc
+__pycache__
+# Robot Framework results
+robot/coc-learner-care-field-experience-salesforce/results/
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode
+.idea
+.project
+.settings
+# Misc
+.DS_Store
+# Ignoring problematic metadata
+force-app/main/default/profiles
+force-app/main/default/appMenus
+force-app/main/default/customindex
+force-app/main/default/permissionsets
