@@ -3,13 +3,18 @@ Template org for the Common Data Model template
 
 
 ## Use Case
+Explain the Data Model use case in as much detail as possible
 ## Entity Relationship Diagram
+Post a Image of ERD here
 ## Data Dictionary 
+Post an Image of Data Dictionary here
 ## Installation
 Install in sandboxes:
 Install in Production Instace: 
 ## Customization
+Any additional steps required
 ## Contributing to the Data Model
+
 ### Through CummulusCI
 #### Pre Requisites 
 1. Github Accoount
